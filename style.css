@@ -168,7 +168,12 @@ div#container.container {
     border-radius: 1rem;
     box-shadow: 0 0.8rem 3.2rem 0 rgba(0, 0, 0, 0.3);
 }
-
+div#container.skillcon {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    box-shadow: 0 0.8rem 3.2rem 0 rgba(0, 0, 0, 0.3);
+}
 
 .row{
     display: flex;
@@ -430,6 +435,61 @@ form{
     }
     to { opacity: 1 }
 }
+/*employment*/
+.employment {
+    margin: 50px 0;
+    text-align: left;
+  }
+  
+  .employment h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .employment-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .employment-list li {
+    margin-bottom: 30px;
+    color: white;
+    
+  }
+  
+  .employment-list h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .job-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .job-duration {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .job-description {
+  
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+  
+  .job-description li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    
+    
+  }
+  
 /* projects */
 .grid-container {
     display: grid;
@@ -458,3 +518,58 @@ form{
     font-family: sans-serif;
     padding-top: 10px;
 }
+/* skills */
+
+
+
+.progress-bar {
+	margin: 50px auto;
+	width: 500px;
+	height: 400px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: column wrap;
+	flex-flow: column wrap;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+}
+
+.progress-bar h1 {
+	text-align: center;
+}
+
+.skills {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.bar {
+	width: 400px;
+	background: #ddd;
+	margin-left: 20px;
+	height: 20px;
+	border-radius: 10px;
+
+}
+
+.skill-title {
+	width: 59px;
+	font-weight: bold;
+}
+
+.bar-color {
+	width: 0%;
+	background: #ddd;
+	height: 100%;
+	border-radius: 10px;
+	-webkit-transition: all 0.7s linear;
+	transition: all 0.7s linear;
+	-webkit-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+
+}
+
