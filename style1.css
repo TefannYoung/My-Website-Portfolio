@@ -572,6 +572,7 @@ form{
 	transition: all 0.7s linear;
 	-webkit-transition-delay: 0.5s;
 	transition-delay: 0.5s;
+    position: relative;
    
 
 }
