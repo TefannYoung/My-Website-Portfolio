@@ -367,5 +367,13 @@ jQuery(document).ready(function() {
 	jQuery(".skills:nth-of-type(7) .bar-color").css({
 		"width": "60%"
 	});
+	jQuery(".skills:nth-of-type(7) .bar-color").css({
+		"width": "60%"
+	});
 
+});
+$(".bar-color").each(function() {
+    var progress = $(this).attr("data-progress");
+    $(this).animate({ width: progress + "%" }, 1000);
+    $(this).find(".percent").text(progress + "%");
 });
