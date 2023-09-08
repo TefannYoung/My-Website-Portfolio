@@ -359,16 +359,10 @@ jQuery(document).ready(function() {
 		"width": "50%"
 	});
 	jQuery(".skills:nth-of-type(5) .bar-color").css({
-		"width": "50%"
-	});
-	jQuery(".skills:nth-of-type(6) .bar-color").css({
-		"width": "50%"
-	});
-	jQuery(".skills:nth-of-type(7) .bar-color").css({
 		"width": "60%"
 	});
-	jQuery(".skills:nth-of-type(8) .bar-color").css({
-		"width": "50%"
+	jQuery(".skills:nth-of-type(6) .bar-color").css({
+		"width": "40%"
 	});
 
 });
