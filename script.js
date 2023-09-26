@@ -362,7 +362,7 @@ jQuery(document).ready(function() {
 		"width": "60%"
 	});
 	jQuery(".skills:nth-of-type(6) .bar-color").css({
-		"width": "40%"
+		"width": "80%"
 	});
 
 });
