@@ -364,6 +364,9 @@ jQuery(document).ready(function() {
 	jQuery(".skills:nth-of-type(6) .bar-color").css({
 		"width": "80%"
 	});
+	jQuery(".skills:nth-of-type(6) .bar-color").css({
+		"width": "80%"
+	});
 
 });
 $(".bar-color").each(function() {
